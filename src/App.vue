@@ -8,6 +8,7 @@
     <Category v-for="category in categories" :cat="category" :key="category.id"/>
     </div>
     <div class="col-md-10">
+       <Slider :sli="items" :key="items"/>     
     <Products v-for="item in items" :item1="item" :key="item.category_id"/>
     </div>
     </div>
@@ -25,6 +26,7 @@
 import Header from './components/Header'
 import Category from './components/Category'
 import Products from './components/Products'
+import Slider from './components/Slider'
 export default {
   name: 'App',
   data (){
@@ -119,7 +121,8 @@ export default {
   components: {
     Header,
     Category,
-    Products
+    Products,
+    Slider
   }
 }
 </script>

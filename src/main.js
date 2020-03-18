@@ -2,6 +2,9 @@ import Vue from 'vue'
 import App from './App.vue'
 // import BootstrapVue from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
+import VueCarousel from 'vue-carousel';
+
+Vue.use(VueCarousel);
 
 // import 'bootsrap/dist/bootsrap-vue.css'
 

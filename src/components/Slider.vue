@@ -1,8 +1,8 @@
 <template>
     <div>
-        <carousel :per-page="1" :autoplay="true" :animation="fadeIn" paginationColor="#caca" :speed="1000" :loop="true" duration="5000">
-    <slide v-for="image in sli" :key="image.id">
-      <img :src="image.imageLink" style="width: 90%; height: 50%;"> 
+        <carousel id="carousel" :per-page="1" :autoplay="true" :paginationEnabled="false" :animation="fadeIn" :speed="1000" :loop="true" duration="5000">
+    <slide id="slide" v-for="image in sli" :key="image.id">
+      <img :src="image.imageLink" style="width: 100%; height: 100%;"> 
     </slide>
   </carousel>
     </div>
@@ -16,6 +16,12 @@ export default {
 </script>
 
 <style scoped>
-
-
+#carousel{
+  height: 26em;
+  box-shadow: black 2px 3px 10px;
+  margin-bottom: 20px;
+}
+#slide{
+  height: 26em;
+}
 </style>

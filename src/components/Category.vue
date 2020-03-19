@@ -24,7 +24,7 @@ export default {
   
   padding: 0px;
   list-style: none;
-  width: 100%;
+  /* width: 100%; */
   clear: both;
   border: none;
   margin-left: 2em;

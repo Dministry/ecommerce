@@ -134,8 +134,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 0px;
-  border: 1px solid #ccc;
-  box-shadow: 12px 12px 12px 12px;
+  
+ 
 }
 </style>

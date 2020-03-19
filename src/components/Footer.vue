@@ -9,7 +9,7 @@
 						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Home</a></li>
 						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>About</a></li>
 						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
-						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Help Center</a></li>
 						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Videos</a></li>
 					</ul>
 				</div>
@@ -19,7 +19,7 @@
 						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Home</a></li>
 						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>About</a></li>
 						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
-						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Help Center</a></li>
 						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Videos</a></li>
 					</ul>
 				</div>
@@ -80,7 +80,7 @@ section .section-title {
     text-transform: uppercase;
 }
 #footer {
-    background: linear-gradient(rgb(37, 221, 212), red)
+    background: linear-gradient(rgb(37, 221, 212), rgb(247, 111, 111));
 }
 #footer h5{
 	padding-left: 10px;

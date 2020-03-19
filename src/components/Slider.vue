@@ -20,6 +20,7 @@ export default {
   height: 26em;
   box-shadow: black 2px 3px 10px;
   margin-bottom: 20px;
+  border-color: cadetblue;
 }
 #slide{
   height: 26em;

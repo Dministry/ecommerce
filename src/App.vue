@@ -18,7 +18,7 @@
     <span class="sr-only">Loading...</span>
   </div>
 </div>
-
+<Footer />
   </div>
 </template>
 
@@ -27,6 +27,7 @@ import Header from './components/Header'
 import Category from './components/Category'
 import Products from './components/Products'
 import Slider from './components/Slider'
+import Footer from './components/Footer'
 export default {
   name: 'App',
   data (){
@@ -122,7 +123,8 @@ export default {
     Header,
     Category,
     Products,
-    Slider
+    Slider,
+    Footer
   }
 }
 </script>

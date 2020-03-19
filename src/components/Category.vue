@@ -31,6 +31,7 @@ export default {
 }
 #left:hover{
     background-color: rgb(53, 164, 207);
+    position:fixed;
 }
 .list-group{
     /* margin-top: 50px; */

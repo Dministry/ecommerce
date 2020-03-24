@@ -11,7 +11,7 @@
 						</center>
 					</div>
 					
-					<div class="container service1-items col-sm-2 col-md-4 pull-left">
+					<div class="col-md-3">
 						<center>
 							<a id="item-1" class="service1-item">
 								<img src="../assets/cars/action-automotive-car-car-front-544542.jpg" alt="">
@@ -27,8 +27,9 @@
 				</div>
 					
 				<div class="col-md-3">
-					<!-- <div class="product-title">Corsair GS600 600 Watt PSU</div>
-					<div class="product-desc">The Corsair Gaming Series GS600 is the ideal price/performance choice for mid-spec gaming PC</div> -->
+					<div class="product-title">Ford Mustang</div>
+					<div class="product-desc">Six available high-powered engines means that every 2020 Mustang comes with performance in its DNA. And with nine unique trims, you’ve got options, from the fun and energetic GT Convertible to the 2020 Shelby GT500®
+                    </div>
 					<div class="product-rating"><i class="fa fa-star gold"></i> <i class="fa fa-star gold"></i> <i class="fa fa-star gold"></i> <i class="fa fa-star gold"></i> <i class="far fa-star"></i> </div>
 					<hr>
 					<div class="product-price">&#8358; 70.00</div>

@@ -5,7 +5,7 @@
   <div class="card-body">
     <h5 class="card-title">{{item1.name}}</h5>
     <p class="card-text">{{item1.Price}} </p>
-    <a href="#" class="btn btn-primary">Buy Now</a>
+    <a href="http://localhost:8080/#/product" class="btn btn-primary">Buy Now</a>
   </div>
 </div>
 </template>

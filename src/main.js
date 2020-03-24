@@ -6,6 +6,7 @@ import VueCarousel from 'vue-carousel';
 import '@fortawesome/fontawesome-free/css/all.css'
 import '@fortawesome/fontawesome-free/js/all.js'
 import '@fortawesome/fontawesome-free/'
+import router from './router'
 Vue.component('font-awesome-icon')
 Vue.use(VueCarousel);
 
@@ -16,5 +17,6 @@ Vue.use(VueCarousel);
 Vue.config.productionTip = false
 
 new Vue({
-  render: h => h(App),
+  router,
+  render: h => h(App)
 }).$mount('#app') 

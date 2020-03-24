@@ -29,8 +29,8 @@
 						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Home</a></li>
 						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>About</a></li>
 						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
-						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
-						<li><a href="https://wwwe.sunlimetech.com" title="Design and developed by"><i class="fa fa-angle-double-right"></i>Imprint</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Help Center</a></li>
+						<li><a href="https://wwwe.sunlimetech.com" title="Design and developed by"><i class="fa fa-angle-double-right"></i>Videos</a></li>
 					</ul>
 				</div>
 			</div>
@@ -70,13 +70,13 @@ export default {
 /* Footer */
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 section {
-    padding: 60px 0;
+    padding: 50px 0;
 }
 
 section .section-title {
     text-align: center;
     color: #007b5e;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     text-transform: uppercase;
 }
 #footer {

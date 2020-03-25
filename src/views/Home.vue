@@ -11,12 +11,12 @@
        <Slider :sli="products" :key="products"/>     
        <p><strong>Top Selling Products</strong></p>
       <div class="row">
-      <div class="" v-for="product in products" :key="product.id">
+      <div class="col-md-4 col-lg4" v-for="product in products" :key="product.id">
         <router-link :to="{ name: 'product', params: { id: product.id}}">
         <img :src="imagePath(product)" alt="" class="img-fluid" >
          <p class="product-title">{{ product.name }}</p>
           <p><em>{{ product.price }}</em></p>
-          <button class="button btn btn-primary">Order Now</button>
+          <button class="button btn btn-primary">Buy Now</button>
         </router-link>
         </div>
         </div>

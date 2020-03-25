@@ -2,9 +2,9 @@
   <div>
       <Header/>
     <section class="wrapper my-5">
-      <div class="flex-col">
-        <img  class="col-2" :src="imagePath(product)" alt="">
-        <div class="col-10">
+      <div class="row">
+        <img  class="col-3" :src="imagePath(product)" alt="">
+        <div class="col-9">
             <div class="Details">
           <h5>{{ product.name }}</h5>
           <h2>{{ product.price }}</h2>

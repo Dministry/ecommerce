@@ -14,7 +14,8 @@ export default new Vuex.Store({
      details: "Six available high-powered engines means that every 2020 Mustang comes with performance in its DNA. And with nine unique trims, you’ve got options, from the fun and energetic GT",
      images: [
       'action-automotive-car-car-front-544542.jpg',
-    ]
+    ],
+    buy: "Add to Cart"
    },
     {
      id: 2,
@@ -24,7 +25,8 @@ export default new Vuex.Store({
      details: "Six available high-powered engines means that every 2020 Mustang comes with performance in its DNA. And with nine unique trims, you’ve got options, from the fun and energetic GT",
     images: [
       'alloy-asphalt-auto-automobile-241316.jpg',
-    ]
+    ],
+    buy: "Add to Cart"
    },
     {
      id: 3,
@@ -34,7 +36,8 @@ export default new Vuex.Store({
      details: "Six available high-powered engines means that every 2020 Mustang comes with performance in its DNA. And with nine unique trims, you’ve got options, from the fun and energetic GT",
     images: [
       'audi-automobile-car-lights-cars-1149831.jpg',
-    ]
+    ],
+    buy: "Add to Cart"
    },
     {
      id: 4,
@@ -44,7 +47,8 @@ export default new Vuex.Store({
      details: "Six available high-powered engines means that every 2020 Mustang comes with performance in its DNA. And with nine unique trims, you’ve got options, from the fun and energetic GT",
     images: [
       'blue-bmw-sedan-near-green-lawn-grass-170811.jpg'
-    ]
+    ],
+    buy: "Add to Cart"
    },
     {
      id: 5,
@@ -55,7 +59,8 @@ export default new Vuex.Store({
      details: "Six available high-powered engines means that every 2020 Mustang comes with performance in its DNA. And with nine unique trims, you’ve got options, from the fun and energetic GT",
     images: [
       'car-vehicle-automobile-range-rover-116675.jpg',
-    ]
+    ],
+    buy: "Add to Cart"
    },
     {
      id: 6,
@@ -65,7 +70,8 @@ export default new Vuex.Store({
      details: "Six available high-powered engines means that every 2020 Mustang comes with performance in its DNA. And with nine unique trims, you’ve got options, from the fun and energetic GT",
     images: [
       'green-renault-sedan-949796.jpg',
-    ]
+    ],
+    buy: "Add to Cart"
    },
    {
      id: 7,
@@ -75,7 +81,8 @@ export default new Vuex.Store({
      details:"Six available high-powered engines means that every 2020 Mustang comes with performance in its DNA. And with nine unique trims, you’ve got options, from the fun and energetic GT",
     images: [
       'red-ferrari-337909.jpg',
-    ]
+    ],
+    buy: "Add to Cart"
    },
     {
      id: 8,
@@ -85,7 +92,8 @@ export default new Vuex.Store({
      details: "Six available high-powered engines means that every 2020 Mustang comes with performance in its DNA. And with nine unique trims, you’ve got options, from the fun and energetic GT",
     images: [
       'white-mercedes-benz-cars-120049.jpg',
-    ]
+    ],
+    buy: "Add to Cart"
    },
     {
      id: 9,
@@ -95,7 +103,8 @@ export default new Vuex.Store({
      details: "Six available high-powered engines means that every 2020 Mustang comes with performance in its DNA. And with nine unique trims, you’ve got options, from the fun and energetic GT",
     images: [
       'green-renault-sedan-949796.jpg',
-    ]
+    ],
+    buy: "Add to Cart"
    },
     {
      id: 10,
@@ -105,7 +114,8 @@ export default new Vuex.Store({
      details: "Six available high-powered engines means that every 2020 Mustang comes with performance in its DNA. And with nine unique trims, you’ve got options, from the fun and energetic GT",
     images: [
       'yellow-sports-car-during-day-time-39855.jpg',
-    ]
+    ],
+    buy: "Add to Cart"
    }
   
    ],

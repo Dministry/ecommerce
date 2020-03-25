@@ -1,15 +1,21 @@
 <template>
   <div>
       <Header/>
-    <section class="wrapper my-5">
+    <section class="container my-5 mb-10">
       <div class="row">
         <img  class="col-3" :src="imagePath(product)" alt="">
-        <div class="col-9">
+        <div class="col-6">
             <div class="Details">
-          <h5>{{ product.name }}</h5>
-          <h2>{{ product.price }}</h2>
-          <p>Product Details: {{ product.details }}</p>
+          <h3>{{ product.name }}</h3>
+          <h4>{{ product.price }}</h4>
+            <i class="fa fa-star text-warning"></i>
+			<i class="fa fa-star text-warning"></i>
+			<i class="fa fa-star text-warning"></i>
+			<i class="fa fa-star text-warning"></i>
+			<i class="far fa-star text-warning"></i>
+          <p> Product Details: {{ product.details }}</p>
             </div>
+            <button class="btn btn-success">{{product.buy}}</button>
         </div>
       </div>
     </section>

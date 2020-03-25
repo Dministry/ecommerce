@@ -3,25 +3,25 @@
     <Header />
     <div class="container-fluid">
         <h2 style="text-align: center;">CARS</h2>
-    
+    <div class="row">
       <div class="col-md-2">
     <Category v-for="category in categories" :cat="category" :key="category.id"/>
     </div>
     <div class="col-md-10">
-       <Slider :sli="products" :key="products"/>     
-       <p><strong>Top Selling Products</strong></p>
+       <Slider />     
+       <center><p><strong>CARS</strong></p></center>
       <div class="row">
-      <div class="col-md-4 col-lg4" v-for="product in products" :key="product.id">
-        <router-link :to="{ name: 'product', params: { id: product.id}}">
+      <div class="col-md-4 col-lg4 my-5" v-for="product in products" :key="product.id">
+        <router-link id="link" :to="{ name: 'product', params: { id: product.id}}">
         <img :src="imagePath(product)" alt="" class="img-fluid" >
          <p class="product-title">{{ product.name }}</p>
           <p><em>{{ product.price }}</em></p>
-          <button class="button btn btn-primary">Buy Now</button>
+         <center> <button class="button btn btn-primary">Buy Now</button> </center>
         </router-link>
         </div>
         </div>
     </div>
-    
+    </div>
     </div>
     <div class="text-center">
   <div class="spinner-border" role="status">
@@ -94,4 +94,12 @@ export default {
   
  
 } */
+
+#link{
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #000;
+    font-weight: 500;
+    text-align: center;
+}
 </style>

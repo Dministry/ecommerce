@@ -3,8 +3,8 @@
       <Header/>
     <section class="wrapper">
       <div class="flex-col">
-        <img  class="flex-col--2" :src="imagePath(product)" alt="">
-        <div class="flex-col--2">
+        <img  class="col-2" :src="imagePath(product)" alt="">
+        <div class="col-10">
             <div class="Details">
           <h5>{{ product.name }}</h5>
           <h2>{{ product.price }}</h2>

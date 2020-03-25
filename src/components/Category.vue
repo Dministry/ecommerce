@@ -4,7 +4,7 @@
     <!-- <ul id="list">
      <li>{{cat.categoryname}}</li>
     </ul> -->
-    <a href="#" class="list-group-item">{{cat.categoryname}}</a>
+    <a href="#" class="list-group-item">{{cat.name}}</a>
     </div>
     </div>
 </template>

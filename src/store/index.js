@@ -43,7 +43,6 @@ export default new Vuex.Store({
      category: "Cars",
      details: "Six available high-powered engines means that every 2020 Mustang comes with performance in its DNA. And with nine unique trims, you’ve got options, from the fun and energetic GT",
     images: [
-      'gamepad.jpg',
       'blue-bmw-sedan-near-green-lawn-grass-170811.jpg'
     ]
    },
@@ -102,7 +101,7 @@ export default new Vuex.Store({
      id: 10,
      name: "Ford Mustang",
      price: "\u20A6 25",
-     category: "cars",
+     category: "Cars",
      details: "Six available high-powered engines means that every 2020 Mustang comes with performance in its DNA. And with nine unique trims, you’ve got options, from the fun and energetic GT",
     images: [
       'yellow-sports-car-during-day-time-39855.jpg',

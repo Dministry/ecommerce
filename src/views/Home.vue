@@ -10,13 +10,13 @@
     <div class="col-md-10">
        <Slider :sli="products" :key="products"/>     
        <p><strong>Top Selling Products</strong></p>
-      <div class="">
+      <div class="row">
       <div class="" v-for="product in products" :key="product.id">
         <router-link :to="{ name: 'product', params: { id: product.id}}">
         <img :src="imagePath(product)" alt="" class="img-fluid" >
          <p class="product-title">{{ product.name }}</p>
           <p><em>{{ product.price }}</em></p>
-          <h3 class="button">Order Now</h3>
+          <button class="button btn btn-primary">Order Now</button>
         </router-link>
         </div>
         </div>
